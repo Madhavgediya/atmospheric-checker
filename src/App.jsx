@@ -6,7 +6,7 @@ import WeatherApp from "./components/WeatherApp";
 
 function App() {
   const [count, setCount] = useState(0);
-
+  console.log(process.env.REACT_APP_API_URL);
   return (
     <div className="main-layar">
       <h1>Search For the Weather</h1>
